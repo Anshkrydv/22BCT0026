@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    align-items: center;
+}
+
+nav p,
+div {
+    padding: 0.5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+nav div {
+    margin-left: 1.5rem;
+}
+
+nav div input {
+    font-size: 18px;
+}
+
+nav div button {
+    margin: 1rem;
+    font-size: 20px;
+    width: 80px;
+    color: aliceblue;
+    background-color: grey;
+}
+
+.hero {
+    display: flex;
+    height: 75vh;
+    padding: 0;
+}
+
+section {
+    width: 75%;
+    padding: 1rem;
+}
+section h2{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+section h3{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 1rem;
+}
+
+aside {
+    width: 25%;
+    margin: 0;
+    padding: 1.5rem;
+    background-color: burlywood;
+}
+aside h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    padding: 1rem;
+}
+aside ul li{
+    color: blue;
+    text-decoration: underline;
+    padding: 0.5rem;
+}
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0; /* You can adjust the background color as needed */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav input {
+    margin-right: 10px;
+}
+
+
+.vertical-menu {
+    width: 200px; /* Set the desired width of your vertical menu */
+    float: right; /* Adjust as needed, depending on your layout */
+}
+
+.vertical-menu h2 {
+    background-color: #f2f2f2; /* Background color for the heading */
+    padding: 10px;
+    margin: 0;
+}
+
+.vertical-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-menu li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd; /* Add a border between list items */
+}
+
+.vertical-menu li:last-child {
+    border-bottom: none; /* Remove border from the last list item */
+}
+
+.vertical-menu a {
+    text-decoration: none;
+    color: black;
+    display: block; /* Make the entire list item clickable */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
